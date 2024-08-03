@@ -1,0 +1,23 @@
+:root{
+    --bg:#151c2c;
+    --bgSoft: #182237;
+    --text: #ffffff;
+    --textSoft: #b3b3b3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
